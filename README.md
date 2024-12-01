@@ -63,7 +63,7 @@ SEE/
 │   ├── Manual_data_with_centroid_TeamA.txt    # Team A's manual motion data
 │   ├── Manual_data_with_centroid_TeamC.txt    # Team C's manual motion data
 │   └── robot_path.csv           # Robot trajectory data
-
+│
 ├── camera_calibration/          # Camera calibration data "Experiment 2"
 │   ├── images/                  # Calibration images
 │   ├── test_images/             # Test images for validation
@@ -79,7 +79,9 @@ SEE/
 │   │   ├── startpose_large.csv  # Start pose data for large configurations
 │   │   ├── startpose_medium.csv # Start pose data for medium configurations
 │   │   └── startpose_small.csv  # Start pose data for small configurations
-│   ├── images/                  # Visual data related to YouBot
+│   │
+│   ├── images/
+│   │           
 │   ├── opti_track_data/         # OptiTrack motion capture data
 │   │   ├── opti_track_path/     # Processed tracking paths
 │   │   │   ├── LL/              # Large-left configurations
@@ -94,9 +96,7 @@ SEE/
 │   │   ├── opti_track_raw_data/ # Raw data from OptiTrack
 │   └── start_end_pose_xz/       # Start and end poses in XZ plane
 │
-│
-├── notebooks/                   # Jupyter Notebooks
-│   └── SEE_Experiments.ipynb    # Main experimental notebook
+├── SEE_Experiments.ipynb    # Main experimental notebook
 └── README.md                    # Project documentation
 
 ```
